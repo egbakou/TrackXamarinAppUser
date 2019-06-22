@@ -10,7 +10,7 @@
         <StackLayout>
             <Frame HeightRequest="40" HorizontalOptions="FillAndExpand">
                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Image HorizontalOptions="Start" Source="country" />
+                    <Image HorizontalOptions="Start" Source="country.png" />
                     <ActivityIndicator IsRunning="{Binding SyncInProcess}" IsVisible="{Binding SyncInProcess}" />
                     <ffimageloadingsvg:SvgCachedImage
                         HeightRequest="40"
@@ -29,7 +29,7 @@
 
             <Frame HeightRequest="40" HorizontalOptions="FillAndExpand">
                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Image HorizontalOptions="Start" Source="city" />
+                    <Image HorizontalOptions="Start" Source="city.png" />
                     <ActivityIndicator IsRunning="{Binding SyncInProcess}" IsVisible="{Binding SyncInProcess}" />
                     <Label
                         FontSize="20"
@@ -44,7 +44,7 @@
 
             <Frame HeightRequest="40" HorizontalOptions="FillAndExpand">
                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Image HorizontalOptions="Start" Source="region" />
+                    <Image HorizontalOptions="Start" Source="region.png" />
                     <ActivityIndicator IsRunning="{Binding SyncInProcess}" IsVisible="{Binding SyncInProcess}" />
                     <Label
                         FontSize="20"
@@ -58,7 +58,7 @@
 
             <Frame HeightRequest="40" HorizontalOptions="FillAndExpand">
                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Image HorizontalOptions="Center" Source="gps" />
+                    <Image HorizontalOptions="Center" Source="gps.png" />
                     <ActivityIndicator IsRunning="{Binding SyncInProcess}" IsVisible="{Binding SyncInProcess}" />
                     <Label
                         FontSize="20"
@@ -72,7 +72,7 @@
 
             <Frame HeightRequest="40" HorizontalOptions="FillAndExpand">
                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Image HorizontalOptions="Start" Source="ip" />
+                    <Image HorizontalOptions="Start" Source="ip.png" />
                     <ActivityIndicator IsRunning="{Binding SyncInProcess}" IsVisible="{Binding SyncInProcess}" />
                     <Label
                         FontSize="20"
@@ -86,7 +86,7 @@
 
             <Frame HeightRequest="40" HorizontalOptions="FillAndExpand">
                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Image HorizontalOptions="Start" Source="currency" />
+                    <Image HorizontalOptions="Start" Source="currency.png" />
                     <ActivityIndicator IsRunning="{Binding SyncInProcess}" IsVisible="{Binding SyncInProcess}" />
                     <Label
                         FontSize="20"
@@ -100,7 +100,7 @@
 
             <Frame HeightRequest="40" HorizontalOptions="FillAndExpand">
                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Image HorizontalOptions="Start" Source="timezone" />
+                    <Image HorizontalOptions="Start" Source="timezone.png" />
                     <ActivityIndicator IsRunning="{Binding SyncInProcess}" IsVisible="{Binding SyncInProcess}" />
                     <Label
                         FontSize="20"
@@ -114,7 +114,7 @@
 
             <Frame HeightRequest="40" HorizontalOptions="FillAndExpand">
                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Image HorizontalOptions="Start" Source="utc" />
+                    <Image HorizontalOptions="Start" Source="utc.png" />
                     <ActivityIndicator IsRunning="{Binding SyncInProcess}" IsVisible="{Binding SyncInProcess}" />
                     <Label
                         FontSize="20"
@@ -128,7 +128,7 @@
 
             <Frame HeightRequest="40" HorizontalOptions="FillAndExpand">
                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Image HorizontalOptions="Start" Source="callingcode" />
+                    <Image HorizontalOptions="Start" Source="callingcode.png" />
                     <ActivityIndicator IsRunning="{Binding SyncInProcess}" IsVisible="{Binding SyncInProcess}" />
                     <Label
                         FontSize="20"
@@ -143,7 +143,7 @@
 
             <Frame HeightRequest="40" HorizontalOptions="FillAndExpand">
                 <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                    <Image HorizontalOptions="Start" Source="language" />
+                    <Image HorizontalOptions="Start" Source="language.png" />
                     <ActivityIndicator IsRunning="{Binding SyncInProcess}" IsVisible="{Binding SyncInProcess}" />
                     <Label
                         FontSize="20"
